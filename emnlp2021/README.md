@@ -1,6 +1,6 @@
 # Norm-based Analysis of Transformer
 
-Code for [Kobayashi+21 Incorporating Residual and Normalization Layers into Analysis of Masked Language Models (EMNLP 2021)](https://aclanthology.org/2021.emnlp-main.373/).  
+Code for [Kobayashi et al., Incorporating Residual and Normalization Layers into Analysis of Masked Language Models (EMNLP 2021)](https://aclanthology.org/2021.emnlp-main.373/).  
 Using this repository, 
 * In BERT, you can use vector norms considering residual connection and layer normalization in addition to attention, in a format similar to attention weigh. (see [Quick Start](#Quick-Start))  
 * You can reproduce our experiments. (see [Reproducing our experiments](#Reproducing-our-experiments))

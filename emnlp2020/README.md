@@ -1,6 +1,6 @@
 # Norm-based Analysis of Transformer
 
-Code for [Kobayashi+20 Attention is Not Only a Weight: Analyzing Transformers with Vector Norms (EMNLP 2020)](https://www.aclweb.org/anthology/2020.emnlp-main.574/).  
+Code for [Kobayashi et al., Attention is Not Only a Weight: Analyzing Transformers with Vector Norms (EMNLP 2020)](https://www.aclweb.org/anthology/2020.emnlp-main.574/).  
 Using this repository, 
 * In BERT and Transformer model, you can use vector norms <img src="https://latex.codecogs.com/gif.latex?\left&space;\|&space;\alpha&space;f\left(\mathit{\textbf{x}}&space;\right&space;)&space;\right&space;\|"/> in a format similar to attention weight <img src="https://latex.codecogs.com/gif.latex?\alpha"/>. (see [Quick Start](#Quick-Start))  
 * You can reproduce our experiments. (see [Reproducing our experiments](#Reproducing-our-experiments))

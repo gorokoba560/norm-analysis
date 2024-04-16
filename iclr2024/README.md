@@ -1,5 +1,5 @@
 # Norm-based Analysis of Transformer
-The implementation for [Kobayashi+24 Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps (ICLR 2024 Spotlight)](https://openreview.net/forum?id=mYWsyTuiRp).
+The implementation for [Kobayashi et al., Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps (ICLR 2024 Spotlight)](https://openreview.net/forum?id=mYWsyTuiRp).
 It will be public soon!
 
 

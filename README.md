@@ -1,11 +1,11 @@
 # Norm-based Analysis of Transformer
 
 Implementations for 3 papers introducing to analyze Transformers using vector norms:
-* [Kobayashi+'20 Attention is Not Only a Weight: Analyzing Transformers with Vector Norms (EMNLP 2020)](https://www.aclweb.org/anthology/2020.emnlp-main.574/)
-* [Kobayashi+'21 Incorporating Residual and Normalization Layers into Analysis of Masked Language Models (EMNLP 2021)](https://aclanthology.org/2021.emnlp-main.373/)
-* [Kobayashi+24 Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps (ICLR 2024 Spotlight)](https://openreview.net/forum?id=mYWsyTuiRp)
+* [Kobayashi et al., Attention is Not Only a Weight: Analyzing Transformers with Vector Norms (EMNLP 2020)](https://www.aclweb.org/anthology/2020.emnlp-main.574/)
+* [Kobayashi et al., Incorporating Residual and Normalization Layers into Analysis of Masked Language Models (EMNLP 2021)](https://aclanthology.org/2021.emnlp-main.373/)
+* [Kobayashi et al., Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps (ICLR 2024 Spotlight)](https://openreview.net/forum?id=mYWsyTuiRp)
 
-## [Kobayashi+'20 Attention is Not Only a Weight: Analyzing Transformers with Vector Norms (EMNLP 2020)](https://www.aclweb.org/anthology/2020.emnlp-main.574/)
+## [Kobayashi et al., Attention is Not Only a Weight: Analyzing Transformers with Vector Norms (EMNLP 2020)](https://www.aclweb.org/anthology/2020.emnlp-main.574/)
 This paper proposed to analyze attention, a core component of Transformer, using vector norms rather than attention weights.  
 Transformer analyses have been focused on mixing in attention and have typically observed attention weights.  
 However, in addition to attention weights, there are more factors to determine attention's outputs: the input vector itself and vector transformations.  
@@ -13,7 +13,7 @@ Then, this paper proposed to analyze attention using vector norms considering th
  → Check this paper's code: [Code for emnlp2020](emnlp2020).  
 
 
-## [Kobayashi+'21 Incorporating Residual and Normalization Layers into Analysis of Masked Language Models (EMNLP 2021)](https://aclanthology.org/2021.emnlp-main.373/)
+## [Kobayashi et al., Incorporating Residual and Normalization Layers into Analysis of Masked Language Models (EMNLP 2021)](https://aclanthology.org/2021.emnlp-main.373/)
 This paper proposed to analyze attention block (i.e., attention, residual connection, and layer normalization) using vector norms.  
 Transformer analyses have been focused on mixing in attention.  
 However, there are components other than attention in Transformer, and they can play a role other than mixing.  
@@ -21,7 +21,7 @@ Then, this paper proposed to expand the scope of Transformer analysis from atten
  → Check this paper's code: [Code for emnlp2021](emnlp2021).  
 
 
-## [Kobayashi+24 Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps (ICLR 2024 Spotlight)](https://openreview.net/forum?id=mYWsyTuiRp)
+## [Kobayashi et al., Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps (ICLR 2024 Spotlight)](https://openreview.net/forum?id=mYWsyTuiRp)
 The paper's implementation will be public soon!
 
 ## Citation

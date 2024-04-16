@@ -1,9 +1,9 @@
 # Norm-based Analysis of Transformer
 
-Implementations for 2 papers introducing to analyze Transformers using vector norms:
+Implementations for 3 papers introducing to analyze Transformers using vector norms:
 * [Kobayashi+'20 Attention is Not Only a Weight: Analyzing Transformers with Vector Norms (EMNLP 2020)](https://www.aclweb.org/anthology/2020.emnlp-main.574/)
 * [Kobayashi+'21 Incorporating Residual and Normalization Layers into Analysis of Masked Language Models (EMNLP 2021)](https://aclanthology.org/2021.emnlp-main.373/)
-
+* [Kobayashi+24 Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps (ICLR 2024 Spotlight)](https://openreview.net/forum?id=mYWsyTuiRp)
 
 ## [Kobayashi+'20 Attention is Not Only a Weight: Analyzing Transformers with Vector Norms (EMNLP 2020)](https://www.aclweb.org/anthology/2020.emnlp-main.574/)
 This paper proposed to analyze attention, a core component of Transformer, using vector norms rather than attention weights.  
@@ -20,6 +20,9 @@ However, there are components other than attention in Transformer, and they can 
 Then, this paper proposed to expand the scope of Transformer analysis from attention into attention block.  
  → Check this paper's code: [Code for emnlp2021](emnlp2021).  
 
+
+## [Kobayashi+24 Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps (ICLR 2024 Spotlight)](https://openreview.net/forum?id=mYWsyTuiRp)
+The paper's implementation will be public soon!
 
 ## Citation
 If you use our code for academic work, please cite:
@@ -40,5 +43,12 @@ If you use our code for academic work, please cite:
    year = "2021",
    url = "https://arxiv.org/abs/2109.07152",
    pages = "to appear",
+}
+@inproceedings{kobayashi2024analyzing,
+   title={Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Map},
+   author={Goro Kobayashi and Tatsuki Kuribayashi and Sho Yokoi and Kentaro Inui},
+   booktitle={The Twelfth International Conference on Learning Representations},
+   year={2024},
+   url={https://openreview.net/forum?id=mYWsyTuiRp}
 }
 ```
